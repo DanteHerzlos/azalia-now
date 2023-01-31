@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 332px;
+  height: 462px;
+}
+
+.card__banners {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

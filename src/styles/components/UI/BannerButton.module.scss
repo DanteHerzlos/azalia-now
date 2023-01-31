@@ -1,0 +1,24 @@
+.btn {
+  cursor: pointer;
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.btn__icon {
+  opacity: 0.5;
+  position: absolute;
+  left: 35px;
+}
+
+.btn__text {
+  color: var(--font-color-2);
+  font-size: 11px;
+  z-index: 2;
+}
+
+.btn__text:hover {
+  color: var(--font-color-1);
+  
+}
